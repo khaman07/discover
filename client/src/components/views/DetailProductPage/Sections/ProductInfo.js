@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Button, Descriptions } from 'antd';
+import { Button, Descriptions,Row,Col } from 'antd';
 
 function ProductInfo(props) {
 
@@ -15,22 +15,17 @@ function ProductInfo(props) {
     
     return (
         <div>
-            <Descriptions title="Product Info">
-                <Descriptions.Item label="Price">Rs.{Product.price}</Descriptions.Item>
-                <Descriptions.Item label="Sold">{Product.sold}</Descriptions.Item>
-                <Descriptions.Item label="View">{Product.views}</Descriptions.Item>
-                <Descriptions.Item label="Description">{Product.description}</Descriptions.Item>
-            </Descriptions>
-                <br />
-                <br />
-                <br />
-                <div style={{ display:'flex', justifyContent: 'center' }}>
-                    <Button size="large" shape="round" type="danger"
-                        onClick = {addToCarthandler}
-                    >
-                        Add to Cart
-                    </Button>
-                </div>
+            <p style={{textAlign: "center", fontSize: "20px", fontWeight: "bold"}}>Shop similar products</p>
+
+        <Descriptions>
+                <Descriptions.Item><a href="/beds" style={{color: "black"}}>Beds</a></Descriptions.Item>
+                <Descriptions.Item><a href="/pendant" style={{color: "black"}}>Pendant Lights</a></Descriptions.Item>
+                <Descriptions.Item><a href="/chair" style={{color: "black"}}>Living Room Chair</a></Descriptions.Item>
+                {/* <Descriptions.Item label="Description">{Product.description}</Descriptions.Item> */}
+        </Descriptions> 
+
+
+
         </div>
     )
 }

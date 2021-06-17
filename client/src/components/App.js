@@ -11,6 +11,9 @@ import UploadProductPage from "./views/UploadProductPage/UploadProductPage"
 import DetailProductPage from "./views/DetailProductPage/DetailProductPage"
 import CartPage from "./views/CartPage/CartPage"
 import HistoryPage from "./views/HistoryPage/HistoryPage"
+import BedsPage from './views/DetailProductPage/Sections/Items/beds';
+import PendantPage from './views/DetailProductPage/Sections/Items/pendant';
+import ChairPage from './views/DetailProductPage/Sections/Items/chair';
 
 //null   Anyone Can go inside
 //true   only logged in user can go inside
@@ -29,6 +32,9 @@ function App() {
           <Route exact path="/product/:productId" component={Auth(DetailProductPage, null)} />
           {/* <Route exact path="/user/cart" component={Auth(CartPage, null)} /> */}
           <Route exact path="/history" component={Auth(HistoryPage, null)} />
+          <Route exact path="/beds" component={Auth(BedsPage, null)} />
+          <Route exact path="/chair" component={Auth(ChairPage, null)} />
+          <Route exact path="/pendant" component={Auth(PendantPage, null)} />
         </Switch>
       </div>
       <Footer />

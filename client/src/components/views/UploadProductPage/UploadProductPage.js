@@ -23,7 +23,7 @@ function UploadProductPage(props) {
     const [PriceValue, setPriceValue] = useState(0)
     const [ContinentValue, setContinentValue] = useState(1)
 
-    const [Images, setImages] = useState([])
+    const [Images, setImages] = useState("")
 
 
     const onTitleChange = (event) => {

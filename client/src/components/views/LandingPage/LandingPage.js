@@ -69,71 +69,13 @@ function LandingPage() {
                 cover={<a href={`/product/${product._id}`}> <ImageSlider images={product.images} /></a>}
             >
                 <Meta
-                    title={product.title}
-                    description={`Rs.${product.price}`}
+                    style={{textAlign: "center"}}
+                    title={<a href={`/product/${product._id}`}><p style={{color: "#080808"}}>View Products</p></a>}
+                    // description={`Rs.${product.price}`}
                 />
             </Card>
         </Col>
     })
-
-    // const showFilteredResults = (filters) => {
-    //     const variables = {
-    //         skip: 0,
-    //         limit: Limit,
-    //         filters: filters
-    //     }
-    //     getProducts(variables)
-    //     setSkip(0)
-    // }
-
-    // const handlePrice = (value) => {
-    //     // const data = price;
-    //     let array = [];
-
-    //     for(let key in data) {
-    //         if(data[key]._id === parseInt(value,10)) {
-    //             array = data[key].array;
-    //         }
-    //     }
-    //     console.log('array', array)
-    //     return array
-
-    // }
-
-    // const handleFilters = (filters, category) => {
-        
-    //     console.log(filters)
-    //     const newFilters = { ...Filters}
-    //     console.log(newFilters);
-
-    //     newFilters[category] = filters
-
-        // if(category === "price"){
-        //     let priceValues = handlePrice(filters)
-        //     newFilters[category] = priceValues
-        // }
-        // console.log(newFilters);
-
-    //     showFilteredResults(newFilters)
-    //     setFilters(newFilters)
-    // }
-
-    // const updateSearchTerms = (newSearchTerm) => {
-        
-    //     console.log(newSearchTerm);
-
-    //     const variables = {
-    //         skip: 0,
-    //         limit: Limit,
-    //         filters: Filters,
-    //         searchTerm: newSearchTerm
-    //     }
-
-    //     setSkip(0)
-    //     setSearchTerms(newSearchTerm)
-
-    //     getProducts(variables)
-    // }
 
     return (
         <div style={{ width: '75%', margin: '3rem auto' }}>
@@ -142,31 +84,6 @@ function LandingPage() {
                 <h1 style={{ color:'#080808',fontFamily:"Cursive", marginBottom: '50px'}}> <b>D</b>iscover <b></b>with <b>A</b>man <Icon type="ShopFilled" /> </h1>
             </div>
 
-            {/* Filter */}
-            
-
-            {/* <Row gutter={[16,16]}>
-                <Col lg={12} xs={24} >
-                    <CheckBox 
-                        list={continents}
-                        handleFilters={filters => handleFilters(filters, "continents")}
-                    />
-                </Col>
-                <Col lg={12} xs={24} >
-                    <RadioBox
-                        list={price}
-                        handleFilters={filters => handleFilters(filters, "price")}
-                    />
-                </Col>
-            </Row> */}
-
-            
-            {/* Search */}
-            {/* <div style={{ display:'flex', justifyContent:'flex-end', margin:'1rem auto' }}>
-                <SearchFeature
-                    refreshFunction = {updateSearchTerms}    
-                />
-            </div> */}
             
 
             {Products.length === 0 ?
