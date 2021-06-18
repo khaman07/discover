@@ -27,7 +27,7 @@ function ChairPage() {
             <Col lg={6} md={8} xs={24}>
             <Card
             hoverable={true}
-            cover={<a href={`https://www.amazon.in/discover/dp/B07XLMHVFV?ref=sbl_dr_sm`}> <img src={img1}></img></a>}
+            cover={<a href={`https://www.amazon.in/discover/dp/B07XLMHVFV?ref=sbl_dr_sm`}> <img style={{height: '275px', width: '275px'}} src={img1}></img></a>}
             >
             </Card>
                 
@@ -36,7 +36,7 @@ function ChairPage() {
             <Col lg={6} md={8} xs={24}>
             <Card
             hoverable={true}
-            cover={<a href={`https://www.amazon.in/discover/dp/B07Y2WLLX5?ref=sbl_dr_sm`}> <img src={img2}></img></a>}
+            cover={<a href={`https://www.amazon.in/discover/dp/B07Y2WLLX5?ref=sbl_dr_sm`}> <img style={{height: '275px', width: '275px'}} src={img2}></img></a>}
             >
             </Card>
                 
@@ -45,7 +45,7 @@ function ChairPage() {
             <Col lg={6} md={8} xs={24}>
             <Card
             hoverable={true}
-            cover={<a href={`https://www.amazon.in/discover/dp/B085NWHF8L?ref=sbl_dr_sm`}> <img src={img3}></img></a>}
+            cover={<a href={`https://www.amazon.in/discover/dp/B085NWHF8L?ref=sbl_dr_sm`}> <img style={{height: '275px', width: '275px'}} src={img3}></img></a>}
             >
             </Card>
                 
@@ -54,7 +54,7 @@ function ChairPage() {
             <Col lg={6} md={8} xs={24}>
             <Card
             hoverable={true}
-            cover={<a href={`https://www.amazon.in/discover/dp/B08KS9FVHW?ref=sbl_dr_sm`}> <img src={img4}></img></a>}
+            cover={<a href={`https://www.amazon.in/discover/dp/B08KS9FVHW?ref=sbl_dr_sm`}> <img style={{height: '275px', width: '275px'}} src={img4}></img></a>}
             >
             </Card>
                 

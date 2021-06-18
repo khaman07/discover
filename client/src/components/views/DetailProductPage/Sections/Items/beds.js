@@ -18,11 +18,11 @@ function BedsPage() {
                 <h1 style={{ color:'#080808',fontFamily:"Cursive", marginBottom: '50px'}}>Beds<Icon type="ShopFilled" /> </h1>
             </div>
 
-            <Row gutter={[16, 16]}>
+            <Row  gutter={[16, 16]}>
                 <Col lg={6} md={8} xs={24}>
                 <Card
                 hoverable={true}
-                cover={<a href={`https://www.amazon.in/discover/dp/B0731143DY?ref=sbl_dr_sm`}> <img src={img1}></img></a>}
+                cover={<a href={`https://www.amazon.in/discover/dp/B0731143DY?ref=sbl_dr_sm`}> <img style={{height: '275px', width: '275px'}} src={img1}></img></a>}
                 >
                 </Card>
                     
@@ -31,7 +31,7 @@ function BedsPage() {
                 <Col lg={6} md={8} xs={24}>
                 <Card
                 hoverable={true}
-                cover={<a href={`https://www.amazon.in/discover/dp/B094D5K9JT?ref=sbl_dr_sm`}> <img src={img2}></img></a>}
+                cover={<a href={`https://www.amazon.in/discover/dp/B094D5K9JT?ref=sbl_dr_sm`}> <img style={{height: '275px', width: '275px'}} src={img2}></img></a>}
                 >
                 </Card>
                     
@@ -40,7 +40,7 @@ function BedsPage() {
                 <Col lg={6} md={8} xs={24}>
                 <Card
                 hoverable={true}
-                cover={<a href={`https://www.amazon.in/discover/dp/B079RZJFZL?ref=sbl_dr_sm`}> <img src={img3}></img></a>}
+                cover={<a href={`https://www.amazon.in/discover/dp/B079RZJFZL?ref=sbl_dr_sm`}> <img style={{height: '275px', width: '275px'}} src={img3}></img></a>}
                 >
                 </Card>
                     
@@ -49,7 +49,7 @@ function BedsPage() {
                 <Col lg={6} md={8} xs={24}>
                 <Card
                 hoverable={true}
-                cover={<a href={`https://www.amazon.in/discover/dp/B091FXVCNW?ref=sbl_dr_sm`}> <img src={img4}></img></a>}
+                cover={<a href={`https://www.amazon.in/discover/dp/B091FXVCNW?ref=sbl_dr_sm`}> <img style={{height: '275px', width: '275px'}} src={img4}></img></a>}
                 >
                 </Card>
                     

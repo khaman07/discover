@@ -27,7 +27,7 @@ function PendantPage() {
             <Col lg={6} md={8} xs={24}>
             <Card
             hoverable={true}
-            cover={<a href={`https://www.amazon.in/discover/dp/B07N8R6CMW?ref=sbl_dr_sm`}> <img src={img1}></img></a>}
+            cover={<a href={`https://www.amazon.in/discover/dp/B07N8R6CMW?ref=sbl_dr_sm`}> <img style={{height: '275px', width: '275px'}} src={img1}></img></a>}
             >
             </Card>
                 
@@ -36,7 +36,7 @@ function PendantPage() {
             <Col lg={6} md={8} xs={24}>
             <Card
             hoverable={true}
-            cover={<a href={`https://www.amazon.in/discover/dp/B015WE7394?ref=sbl_dr_sm`}> <img src={img2}></img></a>}
+            cover={<a href={`https://www.amazon.in/discover/dp/B015WE7394?ref=sbl_dr_sm`}> <img style={{height: '275px', width: '275px'}} src={img2}></img></a>}
             >
             </Card>
                 
@@ -45,7 +45,7 @@ function PendantPage() {
             <Col lg={6} md={8} xs={24}>
             <Card
             hoverable={true}
-            cover={<a href={`https://www.amazon.in/discover/dp/B07FDZC57M?ref=sbl_dr_sm`}> <img src={img3}></img></a>}
+            cover={<a href={`https://www.amazon.in/discover/dp/B07FDZC57M?ref=sbl_dr_sm`}> <img style={{height: '275px', width: '275px'}} src={img3}></img></a>}
             >
             </Card>
                 
@@ -54,7 +54,7 @@ function PendantPage() {
             <Col lg={6} md={8} xs={24}>
             <Card
             hoverable={true}
-            cover={<a href={`https://www.amazon.in/discover/dp/B091XXQ83H?ref=sbl_dr_sm`}> <img src={img4}></img></a>}
+            cover={<a href={`https://www.amazon.in/discover/dp/B091XXQ83H?ref=sbl_dr_sm`}> <img style={{height: '275px', width: '275px'}} src={img4}></img></a>}
             >
             </Card>
                 
